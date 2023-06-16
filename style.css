@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+    color: white;
+  }
+  .jumbotron {
+    background-image: url("/1614368968_29-p-svetlii-fon-goroda-33.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+  
+.logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .subtitle {
+    margin-top: 20px;
+  }
+  
+  .chessboard {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .chessboard-item {
+    flex: 0 0 30%;
+    height: 20%;
+    padding: 20px;
+
+  }
+  
+  .chessboard-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .number {
+    font-size: 24px;
+  }
+  
+  .read-more {
+    color: white;
+  }
+  
+  .read-more:hover {
+    color: black;
+  }
+  
+  .small-image {
+    max-width: 100px;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: 20px;
+  }
+
+
+  .chessboard {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .chessboard-item {
+    flex: 1 1 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .chessboard-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
